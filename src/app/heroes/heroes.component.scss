@@ -7,17 +7,18 @@ h2 {
 
 .parent {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 3px 6px -2px;
   border-radius: 1rem;
   padding: 10px;
   margin: 10px;
+  height: 50vh;
 }
 
 ul {
   gap: 10px;
   font-size: 0.5em;
-  width: 300px;
+  flex: 50%;
 }
 
 li {
@@ -57,4 +58,8 @@ li {
     transform: scale(1.02);
     box-shadow: 0px 2px 5px lightgray;
   }
+}
+
+app-hero-detail {
+  flex: 50%;
 }
