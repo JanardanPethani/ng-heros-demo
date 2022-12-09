@@ -3,7 +3,9 @@
   <button type="button" class="clear" (click)="messageService.clear()">
     Clear logs
   </button>
-  <div *ngFor="let message of messageService.messages" class="logs">
-    {{ message }}
+  <div class="log">
+    <div *ngFor="let message of messageService.messages" class="logs">
+      {{ message }}
+    </div>
   </div>
 </div>

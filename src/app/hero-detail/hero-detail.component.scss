@@ -4,6 +4,7 @@
   flex: 50%;
   width: 250px;
   padding: 15px;
+  margin: 15px;
   margin-right: 100px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px;
   border-radius: 1rem;
@@ -43,4 +44,11 @@
       box-shadow: rgba(50, 50, 93, 0.25) 0px 3px 6px -2px;
     }
   }
+}
+
+button {
+  padding: 5px 15px;
+  margin: 5px;
+  font-size: 1rem;
+  margin-bottom: 10px;
 }
